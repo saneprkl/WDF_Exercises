@@ -1,0 +1,22 @@
+.header_background {
+    background-color: rgba(0,25,76);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 72px;
+    width: 60%;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.title {
+    font-size: 30px;
+}
