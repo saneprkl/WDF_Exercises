@@ -3,20 +3,68 @@
 }
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
+    width: 970px;
+    margin-left: 20%;
     height: 72px;
-    width: 60%;
-    
+    font-size: 16px;
+    font-weight: 500;
 }
-
+@media (max-width: 1300px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 .menu {
     display: flex;
     align-items: center;
 }
 .title {
     font-size: 30px;
+    font-weight: 700;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.secondaries {
+    margin-right: 25px;
+    cursor: pointer;
+}
+.rightMenu {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.button {
+    cursor: pointer;
+    width: 110px;
+    height: 36px;
+    border: 0 solid;
+    border-radius: 9999px;
+    font-weight: 550;
+    font-size: 15px;
+}
+.button:hover {
+    opacity: 0.92;
+}
+.rightSecondaries {
+    align-items: center;
+    margin-left: 28px;
+    cursor: pointer;
+}
+.login {
+    font-size:1.35em;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.search {
+    font-size: 1.2em;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.bars {
+    font-size: 1.2em;
+    margin-left: 8px;
+    cursor: pointer;
 }

@@ -1,5 +1,41 @@
+.header_background {
+    background-color: white;
+}
 .container {
     display: flex;
     flex-direction: row;
-
+    width: 960px;
+    margin-left: 20%;
+}
+@media (max-width: 1300px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.topics {
+    margin-right: 22px;
+    font-size: 16px;
+    font-weight: 490;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    color: #191919;;
+}
+.selected {
+    border-bottom: 4px solid;
+    color: #191919;
+    border-color: #191919;
+    margin-right: 18px;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    font-weight: 650;
+    cursor: pointer;
+}
+.seperator {
+    height: 1px;
+    background-color: gray;
+    width: 100%;
+    margin-bottom: 15px;
 }

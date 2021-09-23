@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import styles from './Notification.module.css';
 
 export default function Notifications(props) {
     return (
-        <div>
-            { props.topic } { props.body }
+        <div className={ styles.container }>
+            <span className={ styles.topic}> { props.topic }</span> { props.body }
         </div>
     )
 }

@@ -3,18 +3,21 @@ import styles from './SecondHeader.module.css';
 
 export default function SecondHeader() {
     return (
+        <div className={ styles.header_background }>
         <div className={ styles.container }>
-            <div>Etusivu</div>
-            <div>HS Visio</div>
-            <div>Luetuimmat</div>
-            <div>Uusimmat</div>
-            <div>Politiikka</div>
-            <div>Kaupunki</div>
-            <div>Kulttuuri</div>
-            <div>Tiede</div>
-            <div>Hyvinvointi</div>
-            <div>Ruoka</div>
-            <div>Nyt</div>
+            <div className={ styles.selected }>Etusivu</div>
+            <div className={ styles.topics }>HS Visio</div>
+            <div className={ styles.topics }>Luetuimmat</div>
+            <div className={ styles.topics }>Uusimmat</div>
+            <div className={ styles.topics }>Politiikka</div>
+            <div className={ styles.topics }>Kaupunki</div>
+            <div className={ styles.topics }>Kulttuuri</div>
+            <div className={ styles.topics }>Tiede</div>
+            <div className={ styles.topics }>Hyvinvointi</div>
+            <div className={ styles.topics }>Ruoka</div>
+            <div className={ styles.topics }>Nyt</div>
+        </div>
+        <div className={ styles.seperator }></div>
         </div>
     )
 }
