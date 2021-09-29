@@ -49,6 +49,14 @@ class App extends React.Component {
     }
   }
   
+  removeItem = (id) => {
+    console.log('button works');
+    let index = this.state.items.findIndex(item => item.id === removeItem);
+    if(index !== -1) {
+      let newItems = [...this.state.items];
+      newItems.splice()
+    }
+  }
   randomNumber = (max) => {
     return Math.floor(Math.random() * max ) + 1;
   }
@@ -61,7 +69,7 @@ class App extends React.Component {
         applicationDescription={ applicationDescription }
         applicationName={ applicationName }
       />
-      <ShoppingList items={ this.state.items } />
+      <ShoppingList items={ this.state.items } removeItem={ this.removeItem } />
       <button onClick={ this.addItems('Carrots', this.randomNumber(10))}>Carrots</button>
       <button onClick={ this.addItems('Strawberries', this.randomNumber(6)) }>Strawberries</button>
       <button onClick={ this.addItems('Yogurt', this.randomNumber(4)) }>Yogurt</button>

@@ -16,6 +16,7 @@ const ShoppingListItem = props => {
     <div>
       { props.value}
     </div>
+    <div><button onClick={ () => props.removeItem(props.id) }>X</button></div>
   </li>
 }
 
