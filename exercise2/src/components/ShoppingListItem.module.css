@@ -18,3 +18,8 @@
 {
   width: 30px;    
 }
+.delete {
+  position: absolute;
+  left: 380px;
+  background-color: red;
+}

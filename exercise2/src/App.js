@@ -51,11 +51,8 @@ class App extends React.Component {
   
   removeItem = (id) => {
     console.log('button works');
-    let index = this.state.items.findIndex(item => item.id === removeItem);
-    if(index !== -1) {
-      let newItems = [...this.state.items];
-      newItems.splice()
-    }
+    let newItems = this.state.items.filter(item => item.id !== id);
+    this.setState({ items: newItems });
   }
   randomNumber = (max) => {
     return Math.floor(Math.random() * max ) + 1;
