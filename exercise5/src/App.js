@@ -66,7 +66,7 @@ let output =
   }
   return (
       <>
-      { output }
+      { isLoading ? (<div className="spinner-border" role="status"></div>) : output }
       </>
   )  
 }

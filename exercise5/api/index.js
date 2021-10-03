@@ -23,7 +23,7 @@ app.get('/items', (req, res) => {
 
 app.post('/items', (req, res) => {
     res.send('New item created');
-    items.push({
+    data.items.push({
         id: uuidv4(),
         name: req.body.name,
         type: req.body.type,
@@ -44,6 +44,7 @@ app.delete('/items/:id', (req, res) => {
     res.sendStatus(404);
   }
 })
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
