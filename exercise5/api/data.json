@@ -1,0 +1,94 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "AMD Ryzen 5 5600X 6-core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler",
+            "type": "cpu",
+            "brand": "AMD",
+            "price": 329.99,
+            "rating": 4.8,
+            "image": "Ryzen-5600X.PNG",
+            "stock": "Available for shipping"
+        },
+        {
+            "id": 2,
+            "name": "AMD Ryzen 5 3600 6-Core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler",
+            "type": "cpu",
+            "brand": "AMD",
+            "price": 217,
+            "rating": 4.9,
+            "image": "Ryzen-3600.PNG",
+            "stock": "Only few remaining"
+        },
+        {
+            "id": 3,
+            "name": "Intel Core i7-9700K Desktop Processor 8 Cores up to 3.6 GHz Turbo unlocked LGA1151 300 Series 95W",
+            "type": "cpu",
+            "brand": "Intel",
+            "price": 339.99,
+            "rating": 4.8,
+            "image": "Intel-i7.png",
+            "stock": "Available for shipping"
+        },
+        {
+            "id": 4,
+            "name": "ASUS ROG Strix AMD Radeon RX 6700 XT OC Edition Gaming Graphics Card AMD RDNA 2, PCIe 4.0, 12GB GDDR6, HDMI 2.1, DisplayPort 1.4a, Axial-tech Fan Design",
+            "type": "gpu",
+            "brand": "Asus",
+            "price": 1339.99,
+            "rating": 4.6,
+            "image": "Radeon-rx-6700.png",
+            "stock": "Only few remaining"
+        },
+        {
+            "id": 5,
+            "name": "ZOTAC Gaming GeForce RTX 3080 Trinity OC LHR 10GB GDDR6X 320-bit 19 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, Spectra 2.0 RGB Lighting",
+            "type": "gpu",
+            "brand": "Zotac",
+            "price": 1435,
+            "rating": 4.4,
+            "image": "rtx-3080.png",
+            "stock": "Out of stock"
+        },
+        {
+            "id": 6,
+            "name": "MSI Gaming GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Tri-Frozr Torx Fan Ampere RGB OC Graphics Card (RTX 3060 Gaming X Trio 12G)",
+            "type": "gpu",
+            "brand": "MSI",
+            "price": 759,
+            "rating": 4.3,
+            "image": "rtx-3060.png",
+            "stock": "Out of stock"
+        },
+        {
+            "id": 7,
+            "name": "ASUS ROG Strix B450-F Gaming II AMD AM4 (Ryzen 5000, 3rd Gen Ryzen ATX Gaming Motherboard (8+4 Power Stages, HDMI 2.0b/DP,2 x PCIe 3.0 x16, USB 3.2 Gen 2 Type-C, 256Mb BIOS Flash ROM",
+            "type": "mb",
+            "brand": "Asus",
+            "price": 129.99,
+            "rating": 4.7,
+            "image": "asus-strix.png",
+            "stock": "Available for shipping"
+        },
+        {
+            "id": 8,
+            "name": "ASUS Prime Z590-P LGA 1200 (Intel 11th/10th Gen) ATX Motherboard (PCIe 4.0, 10+1 Power Stages, 3X M.2, 2.5Gb LAN, Front Panel USB 3.2 Gen 2 USB Type-C, Thunderbolt 4 Support)",
+            "type": "mb",
+            "brand": "Asus",
+            "price": 176,
+            "rating": 4.7,
+            "image": "asus-prime.png",
+            "stock": "Available for shipping"
+        },
+        {
+            "id": 9,
+            "name": "MSI Performance Gaming AMD X470 Ryzen 2ND and 3rd Gen AM4 DDR4 DVI HDMI Onboard Graphics CFX ATX Motherboard (X470 GAMING PLUS Max)",
+            "type": "mb",
+            "brand": "MSI",
+            "price": 96.99,
+            "rating": 4.6,
+            "image": "msi-performance.png",
+            "stock": "Available for shipping"
+        }
+    ]
+}

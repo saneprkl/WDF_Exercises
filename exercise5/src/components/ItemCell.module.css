@@ -1,0 +1,51 @@
+.itemCell {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    align-items: center;
+}
+.container {
+    width: 250px;
+    margin-bottom: 10px;
+    border: gray solid;
+    border-width: 1px;
+    border-radius: 6px;
+}
+.image {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    border-bottom: gray solid;
+    border-width: 1px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.rating { 
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.price { 
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.stock { 
+    margin-left: 5px;
+    margin-right: 5px;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
