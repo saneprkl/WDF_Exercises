@@ -1,0 +1,9 @@
+Added self evaluation here as i missed it in the moodle return box.
+
+-exercise1: 1p, fully completed
+-exercise2: 1p, fully completed
+-exercise3: 1p, fully completed
+-exercise4: 0.75p, fully completed but with the "create user" task the user is a hardcoded static user in the api instead of having function to create one.
+-exercise5: 0.75p, missing functionality to add images for added products, otherwise fully completed.
+
+Total points 4.5/5
